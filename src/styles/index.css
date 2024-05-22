@@ -1,12 +1,54 @@
 
-/* 
+.lightPole {
+    background: black;
+    height: 20rem;
+    width: 1rem;
+    margin: auto;
+  }
+  
+  .trafficLight {
+    border-radius: 1rem;
+    background-color: black;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30rem;
+    width: 10rem;
+    position: relative;
+  }
+  
+  .trafficLight div {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: orange;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .selected {
+    box-shadow: -3px -0.5px 11.5px 30.5px #dbb04bcc;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+ .toggleButton {
+  position: absolute;
+  left: 30rem;
+  top: 33rem;
+  background: purple;
+} 
+  
