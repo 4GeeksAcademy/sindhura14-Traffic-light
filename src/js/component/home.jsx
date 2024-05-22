@@ -18,20 +18,20 @@ const Home = () => {
 		<div className="trafficLight">
 		  <div
 			className={`red${color === "red" ? " selected" : ""}`}
-			onClick={(e) => setColor("red")}
+			onClick={handleClick}
 		  ></div>
 		  <div
 			className={`yellow${color === "yellow" ? " selected" : ""}`}
-			onClick={(e) => setColor("yellow")}
+			onClick={handleClick}
 		  ></div>
 		  <div
 			className={`green${color === "green" ? " selected" : ""}`}
-			onClick={(e) => setColor("green")}
+			onClick={handleClick}
 		  ></div>
 		  <div
 			className={`purple ${color === "purple" ? "selected" : ""}`}
 			style={purple === false ? { display: "none" } : {}}
-			onClick={(e) => setColor("purple")}
+			onClick={handleClick}
 		  ></div>
 		</div>
 		<button
