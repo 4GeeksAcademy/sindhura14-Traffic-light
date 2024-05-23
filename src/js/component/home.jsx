@@ -29,7 +29,7 @@ const Home = () => {
 			onClick={handleClick}
 		  ></div>
 		  <div
-			className={`purple ${color === "purple" ? "selected" : ""}`}
+			className={`purple${color === "purple" ? " selected" : ""}`}
 			style={purple === false ? { display: "none" } : {}}
 			onClick={handleClick}
 		  ></div>
